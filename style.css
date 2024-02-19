@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,300&family=PT+Serif:ital@1&display=swap');
+body{
+    font-family: 'Bitter', serif;
+    height: 100%;
+    margin: 0;
+    padding: 0; 
+    background-color: #262626;
+    color: #175A6B;
+    
+    
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 15px;
+    
+    
+}
+.light{
+    background-color: #F2F2F2;
+    
+    margin: 20px;
+    padding: 20px;
+}
+.cherta{
+    height: 6px;
+    background-color: #636363;
+    margin: 20px;
+}
+.img-block{
+    margin: 15px;
+    width: 30%;
+    height: auto;
+    transform:0;
+    transition: transform 0.25s linear;
+}
+.img-block:hover{
+    transform: scale(1.5);
+    transition: transform 0.5s linear;
+}
+.btn{
+    border-radius: 50px;
+}
+.lang{
+    display: none;
+}
+.show{
+    background-color: #F2F2F2;
+    color: #175A6B;
+    margin: 20px;
+    padding: 20px;
+    display: none;
+}
+.back{
+    display: none;
+    width: 100px;
+}
